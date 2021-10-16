@@ -1,12 +1,12 @@
 # Site settings
 title: Java Lesson Exercises
-email: programmierung@ifsr.de
+email: mail@tobias-hanf.de
 description: >
   Rendered exercise descriptions for the java lessons
 baseurl: "/java-lessons" # the subpath of your site, e.g. /blog/
-url: "http://fsr.github.io/" # the base hostname & protocol for your site
+url: "http://course.tobias-hanf.de/" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username: fsr
+github_username: t-hanf
 
 # Build settings
 markdown: kramdown
