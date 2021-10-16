@@ -4,7 +4,7 @@ email: mail@tobias-hanf.de
 description: >
   Rendered exercise descriptions for the java lessons
 baseurl: "/java-lessons" # the subpath of your site, e.g. /blog/
-url: "http://course.tobias-hanf.de/" # the base hostname & protocol for your site
+url: "https://t-hanf.github.io/" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username: t-hanf
 
