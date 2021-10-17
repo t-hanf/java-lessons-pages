@@ -6,3 +6,4 @@ latex/
 rbuild/
 .jekyll-metadata
 .DS_Store
+.jekyll-cache/
