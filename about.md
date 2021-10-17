@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This site hosts the exercises for the fsr java lessons. Sources can be found on [GitHub](https://github.com/fsr/java-lessons/tree/gh-pages)
+This site hosts the exercises for the fsr java lessons. Sources can be found on [GitHub](https://github.com/t-hanf/java-lessons-pages)
 
 
 Modules and concepts this course wants to teach:
@@ -14,4 +14,4 @@ Modules and concepts this course wants to teach:
 
 
 
-Feedback for these lessons is very much welcome. I you like or hate something about a lesson let us know, either on [GitHub](https://github.com/fsr/java-lessons/issues/new) or just tell us in person ;)
+Feedback for these lessons is very much welcome. I you like or hate something about a lesson let us know, either on [GitHub](https://github.com/t-hanf/java-lessons/issues/new) or just tell us in person ;)

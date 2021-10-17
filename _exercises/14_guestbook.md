@@ -1,6 +1,6 @@
 ---
 title: Guestbook
-number: 14
+#number: 14
 lesson: 8
 status: reviewed
 authors: Pingu501, mangerlahn

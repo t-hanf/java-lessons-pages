@@ -1,6 +1,6 @@
 ---
 title: Fibonacci Menge
-number: 10
+#number: 10
 lesson: 6
 status: reviewed
 authors: mangerlahn, LeonardFollner
@@ -12,18 +12,30 @@ Die Menge `FibonacciArray` kann genau solche Zahlen enthalten die auch in der *F
 
 ### Aufgaben
 
-1. Erstelle eine Klasse `FibonacciArray ` die das Interface `Set` implementiert.2. Erstelle eine neue Klasse `NoFibonacciException`.3. Implementiere `void add(Integer i)` so, dass nur Zahlen der Fibonacci-Folge hinzugefügt werden können und bei Bedarf eine `NoFibonacciException` geworfen wird.4. Teste deine Implemtierung mit der unten gegebenen Testklasse.
+1. Erstelle eine Klasse `FibonacciArray ` die das Interface `Set` implementiert.
+2. Erstelle eine neue Klasse `NoFibonacciException`.
+3. Implementiere `void add(Integer i)` so, dass nur Zahlen der Fibonacci-Folge hinzugefügt werden können und bei Bedarf eine `NoFibonacciException` geworfen wird.
+4. Teste deine Implemtierung mit der unten gegebenen Testklasse.
 
 ### Hinweise
 
- - [Fibonacci-Folge](https://de.wikipedia.org/wiki/Fibonacci-Folge) - [Array kopieren](http://stackoverflow.com/a/5067621/4113940)
+ - [Fibonacci-Folge](https://de.wikipedia.org/wiki/Fibonacci-Folge)
+
+ - [Array kopieren](http://stackoverflow.com/a/5067621/4113940)
 
  
 ```java
-public class Test {	public static void main(String[] args) {
+public class Test {
+	public static void main(String[] args) {
 		
-		FibonacciArray fiboMenge = new FibonacciArray();		for (int i = 0; i < 100; i++) { 
-			try {				fiboMenge.add(i);				System.out.println(i);			} catch (NoFibonacciException e) {			} 
-		}	} 
+		FibonacciArray fiboMenge = new FibonacciArray();
+		for (int i = 0; i < 100; i++) { 
+			try {
+				fiboMenge.add(i);
+				System.out.println(i);
+			} catch (NoFibonacciException e) {
+			} 
+		}
+	} 
 }
 ```

@@ -1,13 +1,14 @@
 ---
 title: Zweidimensional
-number: 9
+#number: 9
 lesson: 5
 status: reviewed
 authors: mangerlahn, LeonardFollner
 ---
 
 ### Beschreibung
-```javapublic interface TwoDimensional {
+```java
+public interface TwoDimensional {
 	public double pi = 3.14159f;
 	public double getPerimeter();
 	public double getArea();

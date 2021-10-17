@@ -1,12 +1,14 @@
 ---
 title: Finbonacci-Folge
-number: 3
+#number: 3
 lesson: 2
 status: reviewed
 authors: mangerlahn, LeonardFollner
 ---
 
-### BeschreibungDie Fibonacci-Folge ist eine Folge aus natürlichen Zahlen, bei der ein Element jeweils die Summe der beiden vorherigen Elemente bildet. Die ersten beiden Elemente sind mit 1 de niert.
+### Beschreibung
+
+Die Fibonacci-Folge ist eine Folge aus natürlichen Zahlen, bei der ein Element jeweils die Summe der beiden vorherigen Elemente bildet. Die ersten beiden Elemente sind mit 1 de niert.
 
 ### Aufgaben
 1. Schreibe ein Programm das beliebige Elemente der Fibonacci-Folge berechnen kann.

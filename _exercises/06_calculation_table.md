@@ -1,6 +1,6 @@
 ---
 title: Rechentabelle
-number: 6
+#number: 6
 lesson: 3
 status: reviewed
 authors: mangerlahn, LeonardFollner
@@ -12,4 +12,5 @@ Eine Multiplikationstabelle stellt die Ergebnisse des kleinen Einmaleins (Zahlen
 ### Aufgaben
 Schreibe einen Rechner, der anhand einer Multiplikationstabelle das kleine Einmaleins ausgibt.
 1. Erstelle die Multiplikationstabelle mit Hilfe von verschachtelten Schleifen.
-2. Teste ob die Parameter für die Funktion `multipliziere(int a, intb)` zwischen 1 und 10 liegen.
+2. Teste ob die Parameter für die Funktion `multipliziere(int a, int
+b)` zwischen 1 und 10 liegen.

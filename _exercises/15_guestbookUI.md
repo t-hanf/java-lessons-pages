@@ -1,6 +1,6 @@
 ---
 title: Guestbook UI
-number: 15
+#number: 15
 lesson: 9
 status: reviewed
 authors: Pingu501, mangerlahn

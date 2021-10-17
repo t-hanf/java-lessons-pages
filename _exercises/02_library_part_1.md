@@ -1,6 +1,6 @@
 ---
 title: Bibliothek - Teil 1
-number: 2
+#number: 2
 lesson: 2
 status: reviewed
 authors: mangerlahn, LeonardFollner
@@ -16,4 +16,5 @@ In einer Dorfbibliothek können Bücher ausgeliehen werden. Jedes Buch hat ein
 
 ### Hinweise
 - Eine ISBN hat 13 Stellen. Nutze `long` oder `String` anstatt int.
-- Bei der Zuweisung (assignment) von `long` wird ein `L` angehangen.`long var = 1234501234567890L`.
+- Bei der Zuweisung (assignment) von `long` wird ein `L` angehangen.
+`long var = 1234501234567890L`.

@@ -2,40 +2,40 @@ slides:
   -
     number: 1
     name: Introduction
-    url: https://ifsr.de/kurs-materialien/java/01-introduction.pdf
+    url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/01-introduction.pdf
     published: True
   -
     number: 2
     name: Object Oriented Programming
     url: https://ifsr.de/kurs-materialien/java/02-oop.pdf
-    published: True
+    published: False
   -
     number: 3
     name: Inheritance
     url: https://ifsr.de/kurs-materialien/java/03-inheritance.pdf
-    published: True
+    published: False
   -
     number: 4
     name: Abstract
     url: https://ifsr.de/kurs-materialien/java/04-abstract.pdf
-    published: True
+    published: False
   -
     number: 5
     name: Interfaces
     url: https://ifsr.de/kurs-materialien/java/05-interfaces.pdf
-    published: True
+    published: False
   -
     number: 6
     name: Exceptions
     url: https://ifsr.de/kurs-materialien/java/06-exceptions.pdf
-    published: True
+    published: False
   -
     number: 7
     name: Collections
     url: https://ifsr.de/kurs-materialien/java/07-collections.pdf
-    published: True
+    published: False
   -
     number: 9
     name: Scopes & GUI
     url: https://www.ifsr.de/kurs-materialien/java/09-scopes_and_gui.pdf
-    published: True
+    published: False

@@ -1,13 +1,14 @@
 ---
 title: Fahrzeuge
-number: 7
+#number: 7
 lesson: 4
 status: reviewed
 authors: mangerlahn, LeonardFollner
 ---
 
 ### Beschreibung
-Es gibt mehrere Arten von Fahrzeugen. Autos und Motorräder sind Beispiele. Elektroautos sind spezielle Autos.Jedes Fahrzeug besitzt eine bestimmte Anzahl von Rädern und wird von einer Marke hergestellt. Ob Steuern für ein Fahrzeug gezahlt werden müssen, wird mit einem boolean festgelegt, welcher standartmäßig auf true gesetzt ist. Autos können einen Autopiloten besitzen. Bei Elektroautos wird die Kapazität der Batterie angegeben außerdem müssen keine Steuern gezahlt werden.
+Es gibt mehrere Arten von Fahrzeugen. Autos und Motorräder sind Beispiele. Elektroautos sind spezielle Autos.
+Jedes Fahrzeug besitzt eine bestimmte Anzahl von Rädern und wird von einer Marke hergestellt. Ob Steuern für ein Fahrzeug gezahlt werden müssen, wird mit einem boolean festgelegt, welcher standartmäßig auf true gesetzt ist. Autos können einen Autopiloten besitzen. Bei Elektroautos wird die Kapazität der Batterie angegeben außerdem müssen keine Steuern gezahlt werden.
 
 ### Aufgaben
 1. Modelliere die Klassen `Vehicle`, `Car`, `ElectricCar` und `Motorcycle`.

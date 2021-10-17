@@ -1,6 +1,6 @@
 ---
 title: Fibonacci Set
-number: 12
+#number: 12
 lesson: 7
 status: reviewed
 authors: mangerlahn, LeonardFollner
@@ -12,7 +12,10 @@ Die Menge `FibonacciSet` kann genau solche Zahlen enthalten die auch in der *Fib
 
 ### Aufgaben
 
-1. Erstelle eine Klasse `FibonacciSet` die das Interface `Set` implementiert.2. Erstelle eine neue Klasse `NoFibonacciException`.3. Implementiere `boolean add(Integer i)` so, dass nur Zahlen der Fibonacci-Folge hinzugefügt werden können und bei Bedarf eine `NoFibonacciException` geworfen wird.4. Teste deine Implemtierung mit der unten gegebenen Testklasse.
+1. Erstelle eine Klasse `FibonacciSet` die das Interface `Set` implementiert.
+2. Erstelle eine neue Klasse `NoFibonacciException`.
+3. Implementiere `boolean add(Integer i)` so, dass nur Zahlen der Fibonacci-Folge hinzugefügt werden können und bei Bedarf eine `NoFibonacciException` geworfen wird.
+4. Teste deine Implemtierung mit der unten gegebenen Testklasse.
 
 ### Hinweise
 
@@ -21,10 +24,17 @@ Die Menge `FibonacciSet` kann genau solche Zahlen enthalten die auch in der *Fib
 ```java
 import java.util.Set; 
 
-public class Test {	public static void main(String[] args) {
+public class Test {
+	public static void main(String[] args) {
 		
-		Set<Integer> fiboMenge = new FibonacciSet();		for (int i = 0; i < 100; i++) { 
-			try {				fiboMenge.add(i);				System.out.println(i);			} catch (NoFibonacciException e) {			} 
-		}	} 
+		Set<Integer> fiboMenge = new FibonacciSet();
+		for (int i = 0; i < 100; i++) { 
+			try {
+				fiboMenge.add(i);
+				System.out.println(i);
+			} catch (NoFibonacciException e) {
+			} 
+		}
+	} 
 }
 ```

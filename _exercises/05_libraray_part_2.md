@@ -1,6 +1,6 @@
 ---
 title: Bibliothek - Teil 2
-number: 5
+#number: 5
 lesson: 3
 status: reviewed
 authors: mangerlahn, LeonardFollner
