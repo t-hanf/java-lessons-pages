@@ -6,9 +6,10 @@ slides:
     published: True
   -
     number: 2
-    name: Object Oriented Programming
-    url: https://ifsr.de/kurs-materialien/java/02-oop.pdf
-    published: False
+    name: Control statements & Methods
+    url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/02-oop.pdf
+    url_de: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/02-oop_de.pdf
+    published: True
   -
     number: 3
     name: Inheritance
