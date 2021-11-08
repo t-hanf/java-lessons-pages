@@ -2,7 +2,7 @@
 title: Sum even
 number: 2
 lesson: 2
-status: finished
+status: reviewed
 authors: thanf
 ---
 
