@@ -3,6 +3,7 @@ slides:
     number: 1
     name: Introduction
     url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/01-introduction.pdf
+    url_de:
     published: True
   -
     number: 2
@@ -14,6 +15,7 @@ slides:
     number: 3
     name: OOP
     url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/03-oop.pdf
+    url_de:
     published: True
   -
     number: 4
