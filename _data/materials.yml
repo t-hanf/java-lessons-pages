@@ -7,14 +7,14 @@ slides:
   -
     number: 2
     name: Control statements & Methods
-    url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/02-oop.pdf
-    url_de: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/02-oop_de.pdf
+    url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/02-control.pdf
+    url_de: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/02-control_de.pdf
     published: True
   -
     number: 3
-    name: Inheritance
-    url: https://ifsr.de/kurs-materialien/java/03-inheritance.pdf
-    published: False
+    name: OOP
+    url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/03-oop.pdf
+    published: True
   -
     number: 4
     name: Abstract
