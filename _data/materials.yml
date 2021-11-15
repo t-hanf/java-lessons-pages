@@ -20,8 +20,8 @@ slides:
   -
     number: 4
     name: Abstract
-    url: https://ifsr.de/kurs-materialien/java/04-abstract.pdf
-    published: False
+    url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/04-inheritance.pdf
+    published: True
   -
     number: 5
     name: Interfaces
