@@ -19,14 +19,14 @@ slides:
     published: True
   -
     number: 4
-    name: Abstract
+    name: Inheritance
     url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/04-inheritance.pdf
     published: True
   -
     number: 5
-    name: Interfaces
-    url: https://ifsr.de/kurs-materialien/java/05-interfaces.pdf
-    published: False
+    name: Abstract and Interfaces
+    url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/05-abstract-interfaces.pdf
+    published: True
   -
     number: 6
     name: Exceptions
