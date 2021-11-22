@@ -1,6 +1,6 @@
 ---
 title: Area
-#number: 9
+number: 5
 lesson: 5
 status: reviewed
 authors: thanf
