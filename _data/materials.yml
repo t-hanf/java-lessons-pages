@@ -30,8 +30,8 @@ slides:
   -
     number: 6
     name: Exceptions
-    url: https://ifsr.de/kurs-materialien/java/06-exceptions.pdf
-    published: False
+    url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/06-control-exceptions.pdf
+    published: True
   -
     number: 7
     name: Collections
