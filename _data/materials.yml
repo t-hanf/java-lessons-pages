@@ -42,3 +42,11 @@ slides:
     name: Sets & Maps
     url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/08_set_map.pdf
     published: True
+    
+  -
+    number: 9
+    name: Scopes & GUI
+    url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/09-scopes_and_gui.pdf
+    published: True
+
+
