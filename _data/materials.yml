@@ -48,5 +48,11 @@ slides:
     name: Scopes & GUI
     url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/09-scopes_and_gui.pdf
     published: True
+  
+  -
+    number: 10
+    name: Git
+    url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/10-git.pdf
+    published: True
 
 
