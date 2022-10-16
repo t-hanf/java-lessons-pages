@@ -1,10 +1,11 @@
 # Site settings
-title: Java Lesson Exercises
+title: Learn Programming with Java
 email: Tobias.Hanf@mailbox.tu-dresden.de
 description: >
-  Rendered exercise descriptions for the java lessons
+  Page for the course Learn Programming with Java
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://t-hanf.github.io/" # the base hostname & protocol for your site
+codepath: "code/"
 # twitter_username: jekyllrb
 github_username: t-hanf
 
@@ -22,10 +23,15 @@ defaults:
   -
     scope:
       path: ""
-      type: "exercises"
+      type: "units"
     values:
-      layout: "exercise"
+      layout: "unit"
 
 collections:
-  exercises:
+  units:
     output: true
+  code:
+    output: false
+  pdfs:
+    output: false
+

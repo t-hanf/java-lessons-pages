@@ -1,34 +1,25 @@
 <!DOCTYPE html>
 <html>
+  {% include head.html %}
 
-{% include head.html %}
+  <body>
+    {% include header.html %}
 
-<body>
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="alert">
+          Feedback for these lessons is very much welcome. If you like or hate
+          something about a lesson let us know, either on
+          <a href="https://github.com/t-hanf/java-lessons/issues/new">GitHub</a
+          >, via <a href="mailto:Tobias.Hanf@mailbox.tu-dresden.de">Mail</a> or
+          just tell us in person :)
+          <a href="#" class="close">x</a>
+        </div>
 
-  {% include header.html %}
-
-  <div class="page-content">
-
-    <div class="wrapper">
-
-      <div class="alert">
-        Feedback for these lessons is very much welcome. If you like or hate something about a lesson let us know,
-        either on <a href="https://github.com/t-hanf/java-lessons/issues/new">GitHub</a>, via <a
-          href="mailto:Tobias.Hanf@mailbox.tu-dresden.de">Mail</a> or just tell us in person :)
-        <a href="#" class="close">x</a>
+        {{ content }}
       </div>
-
-      {{ content }}
-
-      <h3>The solutions can be found here:
-        <a href="https://github.com/t-hanf/java-lessons-code/tree/main/exercises">Solutions</a>
-      </h3>
     </div>
-  </div>
 
-
-  {% include footer.html %}
-
-</body>
-
+    {% include footer.html %}
+  </body>
 </html>

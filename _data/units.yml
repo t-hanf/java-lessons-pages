@@ -1,0 +1,15 @@
+00_Introduction:
+  slides:
+    -
+      number: 1
+      name: Introduction
+      url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/01-introduction.pdf
+      path: 00_introduction.pdf
+      published: True
+    
+  code:
+    -
+      number: 1
+      name: Hello World
+      path: hello_world.java
+      published: True
