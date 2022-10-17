@@ -1,0 +1,19 @@
+00_Introduction:
+  slides:
+    -
+      number: 0
+      name: Introduction
+      path: 00_Introduction.pdf
+      published: True
+    -
+      number: 0
+      name: Setup
+      path: setup_vscode.pdf
+      published: True
+    
+  code:
+    -
+      number: 1
+      name: Hello World
+      path: hello_world.java
+      published: True

@@ -8,31 +8,39 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    background-color: #3A3632;
 }
 
 .site-title {
     font-size: 26px;
+    font-weight: bold;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    color: $red-color;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $red-color;
+        
     }
+
+    
 }
 
 .site-nav {
-    float: right;
+    float: left;
     line-height: 56px;
+    margin-left: 50px;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        font-size: 18px;
+        color: $navbar-text-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -175,12 +183,15 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        padding: 5px;
+        border: solid 1px;
+        border-radius: 5px;
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $grey-color-dark;
 }
 
 .post-link {
@@ -234,3 +245,50 @@
         }
     }
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.row{
+    span {
+        font-weight: bold;
+    }
+}
+
+.cheat-sheet-button {
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    //line-height: 56px;
+    margin-bottom: 0;
+    color: white;
+    background-color: $red-color;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+
+    &,
+    &:visited {
+        color: white;
+        
+    }
+
+    &:hover {
+        color: $red-color;
+        text-decoration: none;
+        background-color: white;
+    }
+
+
+    
+  }

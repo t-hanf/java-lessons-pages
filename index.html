@@ -4,12 +4,12 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Exercises</h1>
+  <h1 class="page-heading">Units</h1>
 
   <ul class="post-list">
-    {% assign exercises = site.exercises | sort: 'number' %}
+    {% assign units = site.units | sort: 'number' %}
     
-    {% for post in exercises %}
+    {% for post in units %}
       {% if post.number and post.published != false %}
         {% include index-post.html post=post %}
       {% endif %}
@@ -17,7 +17,7 @@ layout: default
     
     {% if site.show_drafts %}
       <h2>-- Drafts --</h2>
-      {% for post in exercises %}
+      {% for post in units %}
         {% unless post.number and post.published != false %}
           {% include index-post.html post=post %}
         {% endunless %}

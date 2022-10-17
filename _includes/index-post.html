@@ -1,9 +1,58 @@
 {% assign post=include.post %}
 
 <li>
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="row">
+    <div class="column">
+      <span
+        >{% if post.number %}{{ post.number }}{% else %}#{% endif %}_{{
+        post.title }} &nbsp;&nbsp;{% case post.status %}{% when 'drafty' %} {%
+        include traffic-light.html light='red' message=post.status %}{% when
+        'finished' %} {% include traffic-light.html light='yellow'
+        message=post.status %}{% when 'reviewed' %} {% include
+        traffic-light.html light='green' message=post.status %}{% endcase
+        %}</span
+      >
+    </div>
+    <div class="column">
+      {% assign unit = site.data.units[post.unit] %} {% if unit.slides %}
+      <div class="row">
+        <span> Slides: </span>
+        <ul>
+          {% for slide in unit.slides %} {% if slide.published %}
+          <li>
+            {% if slide.url %}
 
-    <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% if post.number %}{{ post.number }}{% else %}#{% endif %}: {{ post.title }} &nbsp;&nbsp;{% case post.status %}{% when 'drafty' %} {% include traffic-light.html light='red' message=post.status %}{% when 'finished' %} {% include traffic-light.html light='yellow' message=post.status %}{% when 'reviewed' %} {% include traffic-light.html light='green' message=post.status %}{% endcase %}</a>
-    </h2>
-</li>    
+            <a href="{{ slide.url }}"> {{slide.name}} </a>
+
+            {% else %}
+            <a
+              href="{{ slide.path | prepend: '/' | prepend: post.unit | prepend: 'pdfs/' | prepend: site.baseurl }}"
+            >
+              {{slide.name}}
+            </a>
+            {% endif %}
+          </li>
+          {% endif %} {% endfor %}
+        </ul>
+      </div>
+      {% endif %} {% if unit.code %}
+      <div class="row">
+        <span> Code: </span>
+        <ul>
+          {% for code in unit.code %} {% if code.published %}
+          <li>
+            <a
+              href="{{ code.path | prepend: '/' | prepend: post.unit | prepend: 'code/' | prepend: site.baseurl }}"
+              >{{code.name}}</a
+            >
+          </li>
+          {% endif %} {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </div>
+    <div class="column">
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </div>
+  </div>
+</li>

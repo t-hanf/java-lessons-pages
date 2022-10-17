@@ -14,10 +14,14 @@
   border-top: 1px solid $grey-color;
 }
 
+
+
 .alert {
   padding: 20px;
-  background-color: rgb(5, 100, 0);
-  color: white;
+  background-color: rgba(18, 160, 11, 0.205);
+  border: solid 1px #333333;
+  border-radius: 5px;
+  color: $text-color;
   margin-bottom: 30px;
   position: relative;
 
