@@ -1,10 +1,14 @@
 00_Introduction:
   slides:
     -
-      number: 1
+      number: 0
       name: Introduction
-      url: https://raw.githubusercontent.com/t-hanf/java-lessons/master/pdfs/01-introduction.pdf
-      path: 00_introduction.pdf
+      path: 00_Introduction.pdf
+      published: True
+    -
+      number: 0
+      name: Setup
+      path: setup_vscode.pdf
       published: True
     
   code:
