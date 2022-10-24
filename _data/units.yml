@@ -17,3 +17,28 @@
       name: Hello World
       path: hello_world.java
       published: True
+
+01_Variables_and_If_Else:
+  slides:
+    -
+        number: 0
+        name: Variables and If-Else
+        path: 01_Variables_and_If_Else.pdf
+        published: True
+  code:
+    -
+      number: 1
+      name: Temperature Template
+      path: TemperatureTemplate.java
+      published: True
+    -
+      number: 2
+      name: FizzBuzz
+      path: Fizzbuzz.zip
+      published: True
+    -
+      number: 3
+      name: Grade Calculator
+      path: GradeCalculator.java
+      published: True
+    
