@@ -41,4 +41,10 @@
       name: Grade Calculator
       path: GradeCalculator.java
       published: True
-    
+02_Loops_and_Arrays:
+  slides:
+    -
+      number: 0
+      name: Loops and Arrays
+      path: 02_Loops_and_Arrays.pdf
+      published: True
