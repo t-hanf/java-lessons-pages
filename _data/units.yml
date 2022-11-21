@@ -75,3 +75,11 @@
       name: Loops and Arrays
       path: 02_Loops_and_Arrays.pdf
       published: True
+
+03_Functions:
+  slides:
+    -
+      number: 0
+      name: Functions
+      path: 03_Functions.pdf
+      published: True
