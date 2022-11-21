@@ -50,6 +50,21 @@
           {% endif %} {% endfor %}
         </ul>
       </div>
+      {% endif %} {% if unit.solution %}
+      <div class="row">
+        <span> Solutions: </span>
+        <ul>
+          {% for solution in unit.solution %} {% if solution.published %}
+          <li>
+            <a
+              href="{{ solution.path | prepend: '/' | prepend: post.unit | prepend: 'solutions/' | prepend: site.baseurl }}"
+              download
+              >{{solution.name}}</a
+            >
+          </li>
+          {% endif %} {% endfor %}
+        </ul>
+      </div>
       {% endif %}
     </div>
     <div class="column">

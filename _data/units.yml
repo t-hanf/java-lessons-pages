@@ -41,6 +41,33 @@
       name: Grade Calculator
       path: GradeCalculator.java
       published: True
+  solution:
+    -
+        number: 1
+        name: Celsius Kelvin
+        path: CelsiusKelvin.java
+        published: True
+    -
+        number: 2
+        name: Celsius Fahrenheit
+        path: CelsiusFahrenheit.java
+        published: True
+    -
+        number: 3
+        name: Fahrenheit Celsius
+        path: FahrenheitCelsius.java
+        published: True
+    -
+        number: 4
+        name: FizzBuzz
+        path: Fizzbuzz.zip
+        published: True
+    -
+        number: 5
+        name: Grade Calculator
+        path: GradeCalculator.java
+        published: True
+
 02_Loops_and_Arrays:
   slides:
     -
