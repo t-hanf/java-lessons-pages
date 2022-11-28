@@ -75,6 +75,37 @@
       name: Loops and Arrays
       path: 02_Loops_and_Arrays.pdf
       published: True
+  solution:
+    -
+          number: 1
+          name: Array Reversal
+          path: ArrayReversal/ArrayReversal.java
+          published: True
+    -
+          number: 2
+          name: Even Numbers 1
+          path: EvenNumbers/EvenNumbers1.java
+          published: True
+    -
+        number: 3
+        name: Even Numbers 2
+        path: EvenNumbers/EvenNumbers2.java
+        published: True
+    -
+        number: 4
+        name: FizzBuzz Loop
+        path: FizzBuzzLoop/FizzBuzzLoop.java
+        published: True
+    -
+        number: 5
+        name: Integer To String
+        path: IntegerToString/IntegerToString.java
+        published: True
+    -
+        number: 6
+        name: Staircase
+        path: Staircase/Staircase.java
+        published: True
 
 03_Functions:
   slides:
