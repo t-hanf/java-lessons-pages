@@ -114,3 +114,11 @@
       name: Functions
       path: 03_Functions.pdf
       published: True
+
+04_Strings:
+  slides:
+    -
+      number: 0
+      name: Strings
+      path: 04_Strings.pdf
+      published: True
