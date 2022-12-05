@@ -114,6 +114,13 @@
       name: Functions
       path: 03_Functions.pdf
       published: True
+  solution:
+    -
+          number: 0
+          name: Sum Max
+          path: SumMax/SumMax.java
+          published: True
+    -
 
 04_Strings:
   slides:
@@ -121,4 +128,12 @@
       number: 0
       name: Strings
       path: 04_Strings.pdf
+      published: True
+
+05_Classes_and_Objects:
+  slides:
+     -
+      number: 0
+      name: Classes and Objects
+      path: 05_Classes_and_Objects.pdf
       published: True
