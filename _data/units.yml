@@ -120,7 +120,6 @@
           name: Sum Max
           path: SumMax/SumMax.java
           published: True
-    -
 
 04_Strings:
   slides:
@@ -129,6 +128,17 @@
       name: Strings
       path: 04_Strings.pdf
       published: True
+  solution:
+    -
+          number: 0
+          name: Concat
+          path: Concat/Concat.java
+          published: True
+    -
+          number: 1
+          name: Find
+          path: Find/Find.java
+          published: True
 
 05_Classes_and_Objects:
   slides:
