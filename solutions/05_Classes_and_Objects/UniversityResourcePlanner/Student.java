@@ -23,18 +23,15 @@ public class Student {
     }
 
     float getAverageMark() {
-        // returns the average mark of the student
+
         float sum = 0;
-        int i = 0;
-        // adds all the marks together
-        for (; marks[i] != 0 && i < marks.length; i++) {
+        if (currentMarkIndex == 0)
+            return 6.0f;
+
+        for (int i = 0; i < currentMarkIndex; i++) {
             sum += marks[i];
         }
-        // if there are no marks, returns 6
-        if (i == 0) {
-            return 6;
-        }
-        // divides the sum by the number of marks and returns the result
-        return sum / i;
+
+        return sum / currentMarkIndex;
     }
 }

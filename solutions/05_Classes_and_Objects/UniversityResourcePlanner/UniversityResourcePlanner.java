@@ -4,16 +4,15 @@ public class UniversityResourcePlanner {
 
         // Fill the students array with students of my choosing
         for (int i = 0; i < students.length; i++) {
-            Student tmp = new Student();
-            tmp.yearOfBirth = 1998 + i;
+            students[i] = new Student();
+            students[i].yearOfBirth = 1998 + i;
             if (i % 2 == 0) {
-                tmp.degree = "Computer Science";
+                students[i].degree = "Computer Science";
             } else {
-                tmp.degree = "Physics";
+                students[i].degree = "Physics";
             }
-            tmp.enrolNumber = "1234567" + i;
-            tmp.name = "Student " + (i + 1);
-            students[i] = tmp;
+            students[i].enrolNumber = "1234567" + i;
+            students[i].name = "Student " + (i + 1);
         }
 
         // Experimenting with getAge
@@ -27,20 +26,20 @@ public class UniversityResourcePlanner {
         // Experimenting with getAverageMark
         System.out.println("Average mark for the second student is: " + students[1].getAverageMark());
 
-        // Calling printStudentsByDegree
-        printStudentsByDegree(students, "Computer Science");
+        // Calling printstudentsByDegree
+        System.out.println("Students in Computer Science:");
+        currentDegree(students, "Computer Science");
 
         // Calling findBestStudent and print the name of the best student
-        int index = findBestStudent(students);
-        //
-        if (index != -1) {
-            System.out.println("The best student is: " + students[index].name);
+        Student bestStudent = getBestStudent(students);
+        if (bestStudent != null) {
+            System.out.println("The best student is: " + bestStudent.name);
         } else {
             System.out.println("No students found");
         }
 
         // Calling findYoungestStudent and print the name of the worst student
-        index = findYoungestStudent(students);
+        int index = findYoungestStudent(students);
         // if the index is -1, no students were found
         if (index != -1) {
             System.out.println("The youngest student is: " + students[index].name);
@@ -50,42 +49,42 @@ public class UniversityResourcePlanner {
 
     }
 
-    static void printStudentsByDegree(Student[] students, String degree) {
-        // prints all the students with a specific degree
-        System.out.println("Students with degree " + degree + ":");
-        for (int i = 0; i < students.length && students[i] != null; i++) {
-            // if the student has the degree, print the name
-            if (students[i].degree == degree) {
-                System.out.println(students[i].name);
+    static void currentDegree(Student[] students, String degree) {
+        // prints the degree of all students
+        int h = 0;
+        while (h < students.length) {
+            if (students[h].degree == degree) {
+                System.out.println(students[h].name);
             }
+            h++;
         }
     }
 
-    static int findBestStudent(Student[] students) {
-        // finds the student with the highest average mark
-        // the lowest average mark is set to the maximum value of a float
-        float lowestAverage = Float.MAX_VALUE;
-        int lowestAverageIndex = -1;
-        for (int i = 0; i < students.length && students[i] != null; i++) {
-            // if the average mark is lower than the current lowest average, update the
-            // lowest average
-            if (students[i].getAverageMark() < lowestAverage) {
-                lowestAverage = students[i].getAverageMark();
-                lowestAverageIndex = i;
+    static Student getBestStudent(Student[] students) {
+        // finds the best student
+        // initialises currentBestAvgMark to the maximum value of a float,
+        // for each student with a lower
+        // mark than the current best, update the current best
+        Student currentBestStudent = null;
+        float currentBestAvgMark = Float.MAX_VALUE;
+
+        for (int i = 0; i < students.length; i++) {
+            if (students[i] != null && students[i].getAverageMark() < currentBestAvgMark) {
+                currentBestAvgMark = students[i].getAverageMark();
+                currentBestStudent = students[i];
             }
         }
 
-        return lowestAverageIndex;
+        return currentBestStudent;
     }
 
     static int findYoungestStudent(Student[] students) {
         // finds the youngest student
-        // the youngest student is set to the minimum value of an int
         int youngest = 0;
         int youngestIndex = -1;
         for (int i = 0; i < students.length && students[i] != null; i++) {
             // if the year of birth is higher than the current youngest, update the youngest
-            if (students[i].yearOfBirth > youngest) {
+            if (students[i] != null && students[i].yearOfBirth > youngest) {
                 youngest = students[i].yearOfBirth;
                 youngestIndex = i;
             }
