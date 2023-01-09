@@ -166,3 +166,11 @@
       name: Encapsulation
       path: 06_Encapsulation.pdf
       published: True
+
+07_Inheritance:
+  slides:
+    -
+      number: 0
+      name: Inheritance
+      path: 07_Inheritance.pdf
+      published: True
