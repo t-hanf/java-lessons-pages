@@ -166,6 +166,17 @@
       name: Encapsulation
       path: 06_Encapsulation.pdf
       published: True
+  solution:
+    -
+          number: 0
+          name: Student
+          path: UniversityResourcePlanner/Student.java
+          published: True
+    -
+          number: 1
+          name: UniversityResourcePlanner
+          path: UniversityResourcePlanner/UniversityResourcePlanner.java
+          published: True
 
 07_Inheritance:
   slides:
