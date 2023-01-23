@@ -185,6 +185,12 @@
       name: Inheritance
       path: 07_Inheritance.pdf
       published: True
+  solution:
+    -
+          number: 0
+          name: UniversityResourcePlanner_v2
+          path: UniversityResourcePlanner_v2.zip
+          published: True
 
 08_Abstract_Classes_and_Interfaces:
   slides:
