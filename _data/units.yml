@@ -199,3 +199,10 @@
       name: Abstract Classes and Interfaces
       path: 08_Abstract_Classes_and_Interfaces.pdf
       published: True
+  solution:
+    -
+          number: 0
+          name: UniversityResourcePlanner_v3
+          path: UniversityResourcePlanner_v3.zip
+          published: True
+      published: True
