@@ -205,4 +205,11 @@
           name: UniversityResourcePlanner_v3
           path: UniversityResourcePlanner_v3.zip
           published: True
+
+09_Collection_Framework:
+  slides:
+    -
+      number: 0
+      name: Collection Framework
+      path: 09_Collection_Framework.pdf
       published: True
